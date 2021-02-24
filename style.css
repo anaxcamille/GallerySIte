@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 67.5%;
+}
+body{
+   font-size: 1rem;
+}
+.container{
+	margin: 0 5% 0 5%;
+}
+div.profile{
+	display: flex;
+	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	gap:15px;
+}
+div.profile>img{
+ 	 max-width: 150px;
+    min-width: 55px;
+    max-height: 150px;
+    min-height: 55px;
+    border-radius: 20px;
+ 	margin-top: 5%;
+}
+div.profile>h5{
+ 	font-family: 'Montserrat', sans-serif;
+ 	color: #4E5150;
+ 	font-size: calc(1rem + 1vw);
+}
+div.profile>p{
+ 	font-family: 'Montserrat', sans-serif;
+ 	color: #A9A9A9;
+ 	font-size: calc(0.5rem + 0.5vw);
+}
+div.f-section{
+	display: flex;
+	gap:10px;
+}
+div.f-section>div{
+	background-color: #E5E5E5;
+	max-width: 100px;
+	max-height: 67px;
+	min-width: 78px;
+	min-height: 52px;
+	border-radius: 20px;
+}
+div.f-section>div>h6{
+	font-family: 'Montserrat', sans-serif;
+ 	color: #4E5150;
+ 	font-size: calc(1rem + 0.5vw);
+ 	text-align: center;
+ 	padding-top: 12px;
+}
+div.f-section>div>p{
+	font-family: 'Montserrat', sans-serif;
+ 	color: #A9A9A9;
+ 	font-size: calc(0.5rem + 0.5vw);
+ 	text-align: center;
+}
+div.album{
+	margin: 5% 0% 0% 0%;
+}
+div.f-album{
+	display: flex;
+	gap:20px;
+	width: 100%;
+}
+div.f-album>img{
+	width: 31%;
+	height: 20%	;
+	min-width: 100px;
+	min-height: 100px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+div.f-album>img:nth-child(2){
+	width:65%;
+	height: 20%;
+	min-width: 102px;
+	min-height: 100px;
+	border-radius: 20px;
+}
+div.s-album>img{
+	width:65%;
+	height: 20%;
+	min-width: 102px;
+	min-height: 100px;
+	border-radius: 20px;
+}
+div.s-album>img:nth-child(2){
+	width:32%;
+	height: 65%;
+	min-width: 90px;
+	min-height: 102px;
+	border-radius: 40px;
+}
+div.s-album{
+	display: flex;
+	gap:20px;
+}
+div.t-album{
+	display: flex;
+	gap:15px;
+	margin-bottom: -5%;
+}
+div.t-album>img{
+	margin-top: -28%;
+	width: 30%;
+	height: 20%	;
+	min-width: 30px;
+	min-height: 30px;
+	border-radius: 20px;
+}
+div.container>p{
+	margin-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+ 	color: black;
+ 	font-size: calc(0.5rem + 0.5vw);
+ 	text-align: center;
+}
+@media (min-width: 1249px){
+	div.t-album>img{
+	margin-top: -32%;
+	}
+}
